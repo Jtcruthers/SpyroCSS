@@ -23,12 +23,20 @@ body {
 
 .head_bottom {
     clip-path: polygon(13% 0, 89% 0, 100% 28%, 100% 79%, 73% 100%, 22% 98%, 0 81%, 0 30%);
+    border-radius: 34% 34% 100% 97% / 63% 55% 45% 45%;
     background-color: #a25096;
     width: 600px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: -300px;
+}
+
+.eyes {
+    position: absolute;
+    top: -80px;
+    left: -250px;
+    z-index: 1;
 }
 
 .eye_left {
@@ -36,9 +44,8 @@ body {
     width: 150px;
     background-color: white;
     position: absolute;
-    top: 75px;
-    left: 80px;
-    box-shadow: 1px 0px 10px #888787;
+    left: 55px;
+    box-shadow: 1px 0px 10px #4b2c58;
     border-radius: 52% 48% 16% 19% / 83% 87% 11% 15%;
 }
 
@@ -47,9 +54,8 @@ body {
     width: 150px;
     background-color: white;
     position: absolute;
-    top: 75px;
-    left: 275px;
-    box-shadow: 1px 0px 10px #888787;
+    left: 300px;
+    box-shadow: 1px 0px 10px #4b2c58;
     border-radius: 52% 48% 16% 19% / 83% 87% 11% 15%;
 }
 
@@ -71,4 +77,51 @@ body {
     top: 15px;
     left: 15px;
     border-radius: 100%;
+}
+
+.jaw {
+    position: absolute;
+    top: 75px;
+    left: -300px;
+    height: 180px;
+    width: 600px;
+    background-color: #a25096;
+    clip-path: polygon(0 0, 100% 2%, 65% 100%, 35% 100%);
+}
+
+.nose {
+    position: absolute;
+    top: 125px;
+    left: -98px;
+    height: 140px;
+    width: 194px;
+    background-color: #6f277b;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 5% 100%);
+    border-bottom-left-radius: 16%;
+    border-bottom-right-radius: 16%;
+}
+
+.nostril_left {
+    position: relative;
+    top: 110px;
+    left: -110px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(111,39,123,1) 67%);
+    z-index: 3;
+}
+
+.nostril_right {
+    position: absolute;
+    top: 110px;
+    left: 75px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(111,39,123,1) 67%);
+    z-index: 3;
 }
