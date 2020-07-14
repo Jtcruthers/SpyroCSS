@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vw;
     width: 100vw;
+    background-color: #232323;
 }
 
 .spyro {
@@ -17,7 +18,7 @@ body {
     width: 500px;
     height: 300px;
     position: absolute;
-    top: -250px;
+    top: -150px;
     left: -250px;
 }
 
@@ -28,13 +29,13 @@ body {
     width: 600px;
     height: 150px;
     position: absolute;
-    top: 20px;
+    top: 120px;
     left: -300px;
 }
 
 .hair1 {
     position: absolute;
-    top: -350px;
+    top: -250px;
     left: -60px;
     width: 70px;
     height: 200px;
@@ -46,10 +47,10 @@ body {
 
 .hair2 {
     position: absolute;
-    top: -473px;
+    top: -348px;
     left: -45px;
     width: 110px;
-    height: 300px;
+    height: 270px;
     border-radius: 79% 21% 41% 59% / 54% 93% 7% 46%;
     background: rgb(255,234,107);
     background: radial-gradient(circle, rgba(255,234,107,1) 18%, rgba(255,231,105,1) 29%, rgba(254,227,102,1) 49%, rgba(242,172,65,1) 70%, rgba(237,152,52,1) 90%);
@@ -58,7 +59,7 @@ body {
 
 .hair3 {
     position: absolute;
-    top: -320px;
+    top: -220px;
     left: 25px;
     width: 75px;
     height: 125px;
@@ -68,9 +69,35 @@ body {
     z-index: 0;
 }
 
+.horn_left {
+    position: absolute;
+    top: -490px;
+    left: -275px;
+    width: 175px;
+    height: 500px;
+    border-radius: 68% 34% 0% 13% / 100% 80% 11% 5%;
+    background: rgb(255,234,107);
+    background: linear-gradient(90deg, rgba(237,152,52,1) 4%, rgba(255,234,107,1) 51%, rgba(237,152,52,1) 93%); 
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.horn_right {
+    position: absolute;
+    top: -490px;
+    left: 100px;
+    width: 175px;
+    height: 500px;
+    border-radius: 68% 34% 0% 13% / 100% 80% 11% 5%;
+    background: rgb(255,234,107);
+    background: linear-gradient(90deg, rgba(237,152,52,1) 4%, rgba(255,234,107,1) 51%, rgba(237,152,52,1) 93%); 
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
 .eyes {
     position: absolute;
-    top: -80px;
+    top: 20px;
     left: -250px;
     z-index: 1;
 }
@@ -117,7 +144,7 @@ body {
 
 .jaw {
     position: absolute;
-    top: 75px;
+    top: 175px;
     left: -300px;
     height: 180px;
     width: 600px;
@@ -127,7 +154,7 @@ body {
 
 .nose {
     position: absolute;
-    top: 125px;
+    top: 225px;
     left: -98px;
     height: 140px;
     width: 194px;
@@ -140,7 +167,7 @@ body {
 
 .nostril_left {
     position: relative;
-    top: 110px;
+    top: 210px;
     left: -110px;
     height: 40px;
     width: 40px;
@@ -152,7 +179,7 @@ body {
 
 .nostril_right {
     position: absolute;
-    top: 110px;
+    top: 210px;
     left: 75px;
     height: 40px;
     width: 40px;
