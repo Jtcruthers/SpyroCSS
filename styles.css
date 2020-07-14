@@ -32,6 +32,42 @@ body {
     left: -300px;
 }
 
+.hair1 {
+    position: absolute;
+    top: -350px;
+    left: -60px;
+    width: 70px;
+    height: 200px;
+    border-radius: 33% 67% 41% 59% / 74% 72% 28% 26%;
+    background: rgb(255,234,107);
+    background: radial-gradient(circle, rgba(255,234,107,1) 18%, rgba(255,231,105,1) 29%, rgba(254,227,102,1) 49%, rgba(242,172,65,1) 70%, rgba(237,152,52,1) 90%);
+    z-index: 2;
+}
+
+.hair2 {
+    position: absolute;
+    top: -473px;
+    left: -45px;
+    width: 110px;
+    height: 300px;
+    border-radius: 79% 21% 41% 59% / 54% 93% 7% 46%;
+    background: rgb(255,234,107);
+    background: radial-gradient(circle, rgba(255,234,107,1) 18%, rgba(255,231,105,1) 29%, rgba(254,227,102,1) 49%, rgba(242,172,65,1) 70%, rgba(237,152,52,1) 90%);
+    z-index: 1;
+}
+
+.hair3 {
+    position: absolute;
+    top: -320px;
+    left: 25px;
+    width: 75px;
+    height: 125px;
+    border-radius: 23% 77% 12% 88% / 89% 41% 59% 11%;
+    background: rgb(255,234,107);
+    background: radial-gradient(circle, rgba(255,234,107,1) 18%, rgba(255,231,105,1) 29%, rgba(254,227,102,1) 49%, rgba(242,172,65,1) 70%, rgba(237,152,52,1) 90%);
+    z-index: 0;
+}
+
 .eyes {
     position: absolute;
     top: -80px;
